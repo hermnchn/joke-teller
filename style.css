@@ -40,7 +40,14 @@ button:hover {
   filter: brightness(95%);
 }
 
+button:active {
+  transform: scale (0.98);
+}
 
+button:disabled {
+  cursor: default;
+  filter: brightness(30%)
+}
 
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 1000px) {
