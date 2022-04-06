@@ -6,5 +6,11 @@ function test() {
     VoiceRSS.speech({
         key: '<API key>',
         src: 'Hello, world!',
-    })
+        hl: 'en-us',
+        r: 0,
+        c: 'mp3',
+        f: '44hz_16bit_stereo',
+        ssml: false
+    });
 }
+test();
